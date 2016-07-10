@@ -7,13 +7,15 @@ For example:
 ["4", "13", "5", "/", "+"] -> (4 + (13 / 5)) -> 6
 
 ##Sudo code:
-For each element</br>
-  if element is number</br>
-      push in stack</br>
-  else if element is operator</br>
-      pop 2 elements and do calculation with the operator</br>
-      push the result in stack</br>
-  else throw error</br>
+>For each element
+>>if element is number
+>>>push in stack
+>>else if element is operator
+>>>pop 2 elements and do calculation with the operator
+>>>push the result in stack
+>>else throw error
+  
+
   
 ##test:
  if String is: (2.4+7.1)*3.1/3^2-(1.2^4.3+6^3)
