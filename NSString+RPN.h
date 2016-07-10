@@ -34,5 +34,5 @@
  user is responsible for the correctness
  **/
 
--(double)evaluatePostfixNotationString;
+-(double)evaluateRPNString;
 @end

@@ -9,7 +9,7 @@
 #import "NSString+RPN.h"
 
 @implementation NSString(RPN)
--(double)evaluatePostfixNotationString
+-(double)evaluateRPNString
 {
     NSArray * postfixComponents = [self componentsSeparatedByString:@" "];
 
