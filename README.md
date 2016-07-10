@@ -7,13 +7,13 @@ For example:
 ["4", "13", "5", "/", "+"] -> (4 + (13 / 5)) -> 6
 
 ##Sudo code:
->For each element
->>if element is number
->>>push in stack
->>else if element is operator
->>>pop 2 elements and do calculation with the operator
->>>push the result in stack
->>else throw error
+-For each element
+  -if element is number
+    -push in stack
+  -else if element is operator
+    -pop 2 elements and do calculation with the operator
+    -push the result in stack
+  -else throw error
   
 
   
