@@ -10,12 +10,12 @@ For example:
 Sudo code:
 ```
 For each element
-if element is number
-  push in stack
-else if element is operator
-  pop 2 elements and do calculation with the operator
-  push the result in stack
-else throw error
+  if element is number
+    push in stack
+  else if element is operator
+    pop 2 elements and do calculation with the operator
+    push the result in stack
+  else throw error
 ```
 
   
