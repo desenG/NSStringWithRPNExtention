@@ -8,7 +8,7 @@ For example:
 ["4", "13", "5", "/", "+"] -> (4 + (13 / 5)) -> 6
 ```
 
-Sudo code:
+pseudo code:
 ```
 For each element
   if element is number
